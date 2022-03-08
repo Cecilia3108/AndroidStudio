@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimpleUI">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="149dp"
+        android:layout_height="44dp"
+        android:text="My First App"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <EditText
+        android:id="@+id/txtHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Hospital"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <RadioButton
+        android:id="@+id/rbNong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nong"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <RadioButton
+        android:id="@+id/rbVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <RadioButton
+        android:id="@+id/rbCam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cam"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <RadioButton
+        android:id="@+id/rbFAQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="FAQ"
+        app:layout_constraintEnd_toStartOf="@+id/rbNong"
+        tools:layout_editor_absoluteY="365dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
